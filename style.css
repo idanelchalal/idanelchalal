@@ -1,77 +1,64 @@
-* {
-    color: black;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-body
-{
-    margin-top: 40px;
-}
-
-
-#container
-{
-    border-radius: 50px;
-    margin: auto;
-    width: 600px;
-    height: 600px;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 65%, rgba(240,240,240,0.8130602582830007) 100%);
-    text-align: center;
+body {
+    width: 100%;
+	height: 100vh;
+	display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
-    justify-content: space-around;
-}
-
-#container > h1
-{
-    padding: 30px;
-    font-size: 24pt;
-    background: #B7DEED;
-    background: linear-gradient(to right, #B7DEED 0%, #71CEEF 25%, #21B4E2 75%, #B7DEED 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-.option
-{
-    width:120px;
-    height: 120px;
-    border-radius: 10px;
-    background-color: #74EBD5;
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div img {
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: none;
+	align-items: center;
+	justify-content: center;
     -webkit-user-select: none;
+    -ms-user-select: none;
     user-select: none;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
 }
 
-#board
-{
-    margin: auto;
-    width: 400px;
-    height: 400px;
+.header > h1 {
+    font-size: 27pt;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.location-timezone {
     display: flex;
+    font-size: 20pt;
+    color: white;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
 }
 
-#footer
+.addons
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 45pt;
-    color: green;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+}
+
+.degrees
+{
+    font-size: 17pt;
+}
+
+.weather-section
+{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer span
+{
+    color: #d1cfd0;
+    background-image: -webkit-linear-gradient(180deg, #d1cfd0 23%, #edabf5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-stretch:extra-expanded;
 }
