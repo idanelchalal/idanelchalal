@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on expanding my tech skills.<br>🌱 I’m currently learning Next.js, socket.io<br>💬 Ask me about Motorcycles, Boxing and Programming :)<br>
+🔭 I’m currently working on expanding my tech skills.<br>🌱 I’m currently learning web3, Next.js<br>💬 Ask me about Motorcycles, Boxing and Programming :)<br>
 
 
 ## 🌐 Socials:
