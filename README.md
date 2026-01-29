@@ -1,7 +1,3 @@
-# 💫 About Me:
-🔭 I’m currently working on expanding my tech skills.<br>🌱 I’m currently React Native<br>💬 Ask me about Motorcycles, Boxing and Programming :)<br>
-
-
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/idanelchalal/) 
 
